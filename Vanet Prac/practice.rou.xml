@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 02/16/21 17:18:50 by Eclipse SUMO netedit Version 1.7.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <output>
+        <output-file value="C:\Users\Dell\Desktop\practice.net.xml"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <additional-files value="C:\Users\Dell\Desktop\practice.add.xml"/>
+        <route-files value="C:\Users\Dell\Desktop\practice.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <route edges="-gneE0 -gneE3 -gneE2 -gneE1" color="yellow" id="route_0"/>
+    <trip id="vehicle_0" type="DEFAULT_BIKETYPE" depart="0.00" from="-gneE0" to="-gneE1" via="-gneE3 -gneE2">
+        <stop parkingArea="parkingArea_-gneE2_0_0" duration="60.00"/>
+        <stop parkingArea="parkingArea_-gneE2_0_0" duration="60.00"/>
+        <stop parkingArea="parkingArea_-gneE1_0_1" duration="60.00"/>
+    </trip>
+    <flow id="flow_0" type="DEFAULT_BIKETYPE" begin="0.00" from="-gneE0" to="-gneE1" via="-gneE3 -gneE2" end="3600.00" number="600"/>
+</routes>
